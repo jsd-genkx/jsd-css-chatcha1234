@@ -25,13 +25,14 @@ body {
 	background-color: var(--color-accent);
 	width: 100%;
 	min-height: 100dvh;
+	outline: solid 5px var(--color-black);
 
 	display: flex;
-	/* gap: 1rem; */
-	/* justify-content: center; */
-	/* align-items: center; */
-	/* align-content: center; */
-	/* flex-wrap: wrap; */
+	gap: 1rem;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
 
 	/* flex-direction: column; */
 	/* height: 90vh; */
@@ -44,6 +45,9 @@ body {
 	background-color: var(--color-primary);
 	color: var(--color-white);
 	border: solid var(--color-white) 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
 	/* flex-shrink: 1;
 	flex-grow: 0;
@@ -53,5 +57,5 @@ body {
 }
 
 /* .box3 {
-	flex:555;
+	flex:3;
 } */
