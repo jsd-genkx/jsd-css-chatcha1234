@@ -45,6 +45,7 @@ body {
 	background-color: var(--color-primary);
 	color: var(--color-white);
 	border: solid var(--color-white) 5px;
+	
 	display: flex;
 	justify-content: center;
 	align-items: center;
